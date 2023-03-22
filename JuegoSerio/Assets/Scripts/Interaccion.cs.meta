@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 1542f9e82b5852840ab1bf8ec7dbc1f4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - item: {instanceID: 0}
+  - item2: {instanceID: 0}
+  - item3: {instanceID: 0}
+  - item4: {instanceID: 0}
+  - sonidoSelect: {fileID: 5195544055960178211, guid: 4b4e50f3160232449a995109cca576e3,
+      type: 3}
+  - sonidoBoton: {fileID: 4379404874571823397, guid: d24fbe014829d09438b09a43ac7dd6f9,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

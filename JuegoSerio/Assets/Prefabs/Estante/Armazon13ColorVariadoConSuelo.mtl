@@ -1,0 +1,56 @@
+# Blender MTL File: 'Armazon13ColorVariadoConSuelo.blend'
+# Material Count: 5
+
+newmtl Amarillo
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.716849 0.013581
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Azulclaro
+Ns 225.000000
+Ka 0.525253 0.525253 0.525253
+Kd 0.337844 0.575510 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Material
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump D:\\Universidad\\Tesis\\Terapeuta\\Modelos\\Recursos\\Textura\\marble_01_nor_2k.jpg
+map_Kd D:\\Universidad\\Tesis\\Terapeuta\\Modelos\\Recursos\\Textura\\marble_01_diff_2k.jpg
+map_Ks D:\\Universidad\\Tesis\\Terapeuta\\Modelos\\Recursos\\Textura\\marble_01_spec_2k.jpg
+map_Ns D:\\Universidad\\Tesis\\Terapeuta\\Modelos\\Recursos\\Textura\\marble_01_rough_2k.jpg
+
+newmtl Rojo
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.003364 0.015724
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Verde
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.031588 0.166163 0.038720
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2

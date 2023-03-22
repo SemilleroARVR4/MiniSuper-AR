@@ -1,0 +1,106 @@
+apply plugin: 'com.android.library'
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation(name: 'com.google.firebase.protolite-well-known-types-18.0.0', ext:'aar')
+    implementation(name: 'androidx.documentfile.documentfile-1.0.0', ext:'aar')
+    implementation(name: 'androidx.print.print-1.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-firestore-unity-8.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-analytics-19.0.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-tasks-17.2.1', ext:'aar')
+    implementation(name: 'UnityARCore', ext:'aar')
+    implementation(name: 'io.grpc.grpc-android-1.28.0', ext:'aar')
+    implementation(name: 'androidx.cursoradapter.cursoradapter-1.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-auth-interop-20.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-app-unity-8.0.0', ext:'aar')
+    implementation(name: 'ARPresto', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-basement-17.6.0', ext:'aar')
+    implementation(name: 'androidx.arch.core.core-runtime-2.0.0', ext:'aar')
+    implementation(name: 'androidx.slidingpanelayout.slidingpanelayout-1.0.0', ext:'aar')
+    implementation(name: 'androidx.localbroadcastmanager.localbroadcastmanager-1.0.0', ext:'aar')
+    implementation(name: 'androidx.lifecycle.lifecycle-viewmodel-2.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-components-17.0.0', ext:'aar')
+    implementation(name: 'androidx.fragment.fragment-1.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-database-collection-18.0.0', ext:'aar')
+    implementation(name: 'androidx.lifecycle.lifecycle-livedata-2.0.0', ext:'aar')
+    implementation(name: 'androidx.browser.browser-1.0.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-base-17.6.0', ext:'aar')
+    implementation(name: 'androidx.lifecycle.lifecycle-runtime-2.0.0', ext:'aar')
+    implementation(name: 'androidx.legacy.legacy-support-core-ui-1.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-measurement-connector-19.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-auth-unity-8.0.0', ext:'aar')
+    implementation(name: 'VuforiaEngine', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-stats-17.0.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-measurement-api-19.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-firestore-23.0.1', ext:'aar')
+    implementation(name: 'androidx.interpolator.interpolator-1.0.0', ext:'aar')
+    implementation(name: 'androidx.customview.customview-1.0.0', ext:'aar')
+    implementation(name: 'unityandroidpermissions', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-measurement-sdk-api-19.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-appcheck-interop-16.0.0-beta01', ext:'aar')
+    implementation(name: 'UnityChannel', ext:'aar')
+    implementation(name: 'arcore_client', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-database-unity-8.0.0', ext:'aar')
+    implementation(name: 'androidx.core.core-1.2.0', ext:'aar')
+    implementation(name: 'androidx.drawerlayout.drawerlayout-1.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-common-20.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-installations-17.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-database-20.0.0', ext:'aar')
+    implementation(name: 'androidx.swiperefreshlayout.swiperefreshlayout-1.0.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-measurement-impl-19.0.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-safetynet-17.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-auth-21.0.1', ext:'aar')
+    implementation(name: 'androidx.versionedparcelable.versionedparcelable-1.1.0', ext:'aar')
+    implementation(name: 'androidx.viewpager.viewpager-1.0.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-measurement-base-19.0.0', ext:'aar')
+    implementation(name: 'androidx.loader.loader-1.0.0', ext:'aar')
+    implementation(name: 'androidx.lifecycle.lifecycle-livedata-core-2.0.0', ext:'aar')
+    implementation(name: 'androidx.legacy.legacy-support-core-utils-1.0.0', ext:'aar')
+    implementation(name: 'com.google.firebase.firebase-installations-interop-17.0.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-auth-api-phone-17.4.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-ads-identifier-17.0.0', ext:'aar')
+    implementation(name: 'androidx.coordinatorlayout.coordinatorlayout-1.0.0', ext:'aar')
+    implementation(name: 'androidx.asynclayoutinflater.asynclayoutinflater-1.0.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-measurement-sdk-19.0.0', ext:'aar')
+    implementation(name: 'com.google.android.gms.play-services-measurement-19.0.0', ext:'aar')
+    implementation project('FirebaseApp.androidlib')
+
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion '30.0.2'
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        minSdkVersion 24
+        targetSdkVersion 30
+        ndk {
+            abiFilters 'armeabi-v7a'
+        }
+        versionCode 1
+        versionName '2'
+        consumerProguardFiles 'proguard-unity.txt'
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    aaptOptions {
+        noCompress = ['.unity3d', '.ress', '.resource', '.obb', '.unityexp'] + unityStreamingAssets.tokenize(', ')
+        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~"
+    }
+
+    packagingOptions {
+        doNotStrip '*/armeabi-v7a/*.so'
+    }
+}
+
+
+

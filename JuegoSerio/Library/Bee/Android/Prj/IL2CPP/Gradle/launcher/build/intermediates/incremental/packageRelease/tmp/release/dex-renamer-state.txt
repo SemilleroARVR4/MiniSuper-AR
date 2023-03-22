@@ -1,0 +1,7 @@
+#Mon Sep 19 13:11:33 COT 2022
+base.0=D\:\\disco d\\proyectos de unity\\AppFinal\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=D\:\\disco d\\proyectos de unity\\AppFinal\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex

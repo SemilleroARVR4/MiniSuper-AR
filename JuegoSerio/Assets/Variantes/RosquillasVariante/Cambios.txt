@@ -1,0 +1,1 @@
+Se le quito los textos y el reloj que traia en una esquina, el color ahora del empaque tiene franjas celestes

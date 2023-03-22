@@ -1,0 +1,489 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.UNICAUCA.AppTerapeuta"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="2" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00020000" />
+19-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-67
+21-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:22-64
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:5-65
+22-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:22-62
+23
+24    <uses-feature
+24-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:5-19:36
+25        android:name="android.hardware.camera"
+25-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:9-47
+26        android:required="true" />
+26-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:9-33
+27    <uses-feature
+27-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:5-22:36
+28        android:name="android.hardware.camera.autofocus"
+28-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-57
+29        android:required="false" />
+29-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-33
+30    <uses-feature
+30-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:5-25:36
+31        android:name="android.hardware.camera.front"
+31-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-53
+32        android:required="false" />
+32-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-33
+33    <uses-feature
+33-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:5-28:36
+34        android:name="android.hardware.touchscreen"
+34-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-52
+35        android:required="false" />
+35-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-33
+36    <uses-feature
+36-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:5-31:36
+37        android:name="android.hardware.touchscreen.multitouch"
+37-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:9-63
+38        android:required="false" />
+38-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:9-33
+39    <uses-feature
+39-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:5-34:36
+40        android:name="android.hardware.touchscreen.multitouch.distinct"
+40-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:9-72
+41        android:required="false" />
+41-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:9-33
+42    <uses-feature
+42-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:5-37:35
+43        android:name="android.hardware.camera.ar"
+43-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:9-50
+44        android:required="true" />
+44-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:9-32
+45    <uses-feature
+45-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:5-40:35
+46        android:name="com.google.ar.core.depth"
+46-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:9-48
+47        android:required="true" />
+47-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:9-32
+48
+49    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+49-->[:io.grpc.grpc-android-1.28.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\33edb074bf28e88f6dbb90255cce04aa\io.grpc.grpc-android-1.28.0\AndroidManifest.xml:11:5-79
+49-->[:io.grpc.grpc-android-1.28.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\33edb074bf28e88f6dbb90255cce04aa\io.grpc.grpc-android-1.28.0\AndroidManifest.xml:11:22-76
+50    <uses-permission android:name="android.permission.WAKE_LOCK" />
+50-->[:com.google.android.gms.play-services-measurement-api-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\f06ecd44a8c2cea441d713af53a72e83\com.google.android.gms.play-services-measurement-api-19.0.0\AndroidManifest.xml:24:5-68
+50-->[:com.google.android.gms.play-services-measurement-api-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\f06ecd44a8c2cea441d713af53a72e83\com.google.android.gms.play-services-measurement-api-19.0.0\AndroidManifest.xml:24:22-65
+51    <uses-permission android:name="android.permission.GET_TASKS" />
+51-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:9:5-68
+51-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:9:22-65
+52    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+52-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:10:5-76
+52-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:10:22-73
+53    <uses-permission android:name="com.xiaomi.sdk.permission.PAYMENT" />
+53-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:12:5-73
+53-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:12:22-70
+54    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+54-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:13:5-75
+54-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:13:22-72
+55    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+55-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:14:5-71
+55-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:14:22-68
+56    <uses-permission android:name="com.xiaomi.permission.AUTH_SERVICE" />
+56-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:16:5-74
+56-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:16:22-71
+57
+58    <queries>
+58-->[:arcore_client:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:29:5-31:15
+59        <package android:name="com.google.ar.core" />
+59-->[:arcore_client:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:30:9-54
+59-->[:arcore_client:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:30:18-51
+60    </queries>
+61
+62    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+62-->[:com.google.android.gms.play-services-measurement-impl-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\d853ee2a960a0656d5e1928f53600b08\com.google.android.gms.play-services-measurement-impl-19.0.0\AndroidManifest.xml:26:5-110
+62-->[:com.google.android.gms.play-services-measurement-impl-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\d853ee2a960a0656d5e1928f53600b08\com.google.android.gms.play-services-measurement-impl-19.0.0\AndroidManifest.xml:26:22-107
+63
+64    <application
+64-->D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+65        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+65-->[:androidx.core.core-1.2.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\4527d81fa1dab2c4adef56282f6f51b4\androidx.core.core-1.2.0\AndroidManifest.xml:24:18-86
+66        android:extractNativeLibs="true"
+66-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:18-50
+67        android:icon="@mipmap/app_icon"
+67-->D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+68        android:label="@string/app_name" >
+68-->D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+69        <activity
+69-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:9-63:20
+70            android:name="com.unity3d.player.UnityPlayerActivity"
+70-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:13-66
+71            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+71-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-194
+72            android:hardwareAccelerated="false"
+72-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:13-48
+73            android:launchMode="singleTask"
+73-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:13-44
+74            android:resizeableActivity="false"
+74-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:13-47
+75            android:screenOrientation="landscape"
+75-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:13-50
+76            android:theme="@style/UnityThemeSelector" >
+76-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:13-54
+77            <intent-filter>
+77-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:13-55:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:17-69
+78-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:25-66
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+80-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:17-77
+80-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:27-74
+81            </intent-filter>
+82
+83            <meta-data
+83-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-59:40
+84                android:name="unityplayer.UnityActivity"
+84-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:17-57
+85                android:value="true" />
+85-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:17-37
+86            <meta-data
+86-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-62:40
+87                android:name="android.notch_support"
+87-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:17-53
+88                android:value="true" />
+88-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:17-37
+89        </activity>
+90
+91        <meta-data
+91-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:9-67:33
+92            android:name="unity.splash-mode"
+92-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-45
+93            android:value="0" />
+93-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-30
+94        <meta-data
+94-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:9-70:36
+95            android:name="unity.splash-enable"
+95-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-47
+96            android:value="True" />
+96-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:13-33
+97        <meta-data
+97-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:9-73:36
+98            android:name="unity.launch-fullscreen"
+98-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:13-51
+99            android:value="True" />
+99-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:13-33
+100        <meta-data
+100-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:9-76:37
+101            android:name="unity.allow-resizable-window"
+101-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:13-56
+102            android:value="False" />
+102-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:13-34
+103        <meta-data
+103-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:9-79:50
+104            android:name="notch.config"
+104-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:78:13-40
+105            android:value="portrait|landscape" />
+105-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:79:13-47
+106        <meta-data
+106-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:80:9-82:36
+107            android:name="unityplayer.SkipPermissionsDialog"
+107-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:81:13-61
+108            android:value="true" />
+108-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:82:13-33
+109        <meta-data
+109-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:83:9-85:40
+110            android:name="com.google.ar.core"
+110-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:84:13-46
+111            android:value="required" />
+111-->[:unityLibrary] D:\disco d\proyectos de unity\AppFinal\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:85:13-37
+112        <meta-data
+112-->[:com.google.android.gms.play-services-basement-17.6.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\cb42bf65788b9c799eef64f2ab3f7718\com.google.android.gms.play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+113            android:name="com.google.android.gms.version"
+113-->[:com.google.android.gms.play-services-basement-17.6.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\cb42bf65788b9c799eef64f2ab3f7718\com.google.android.gms.play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+114            android:value="@integer/google_play_services_version" />
+114-->[:com.google.android.gms.play-services-basement-17.6.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\cb42bf65788b9c799eef64f2ab3f7718\com.google.android.gms.play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+115
+116        <activity
+116-->[:com.google.android.gms.play-services-base-17.6.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\25f0e71bf732cf8088b688972ce84cbc\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+117            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+117-->[:com.google.android.gms.play-services-base-17.6.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\25f0e71bf732cf8088b688972ce84cbc\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+118            android:exported="false"
+118-->[:com.google.android.gms.play-services-base-17.6.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\25f0e71bf732cf8088b688972ce84cbc\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+119            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+119-->[:com.google.android.gms.play-services-base-17.6.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\25f0e71bf732cf8088b688972ce84cbc\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+120
+121        <service
+121-->[:com.google.android.gms.play-services-measurement-api-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\f06ecd44a8c2cea441d713af53a72e83\com.google.android.gms.play-services-measurement-api-19.0.0\AndroidManifest.xml:27:9-33:19
+122            android:name="com.google.firebase.components.ComponentDiscoveryService"
+122-->[:com.google.android.gms.play-services-measurement-api-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\f06ecd44a8c2cea441d713af53a72e83\com.google.android.gms.play-services-measurement-api-19.0.0\AndroidManifest.xml:28:13-84
+123            android:directBootAware="true"
+123-->[:com.google.firebase.firebase-common-20.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\430aa177607ae83148ecf56a5c4e4c30\com.google.firebase.firebase-common-20.0.0\AndroidManifest.xml:21:86-116
+124            android:exported="false" >
+124-->[:com.google.android.gms.play-services-measurement-api-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\f06ecd44a8c2cea441d713af53a72e83\com.google.android.gms.play-services-measurement-api-19.0.0\AndroidManifest.xml:29:13-37
+125            <meta-data
+125-->[:com.google.android.gms.play-services-measurement-api-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\f06ecd44a8c2cea441d713af53a72e83\com.google.android.gms.play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+126                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+126-->[:com.google.android.gms.play-services-measurement-api-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\f06ecd44a8c2cea441d713af53a72e83\com.google.android.gms.play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[:com.google.android.gms.play-services-measurement-api-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\f06ecd44a8c2cea441d713af53a72e83\com.google.android.gms.play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+128            <meta-data
+128-->[:com.google.firebase.firebase-firestore-23.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\0ad509fec3f4c0522a073e6d36df0e00\com.google.firebase.firebase-firestore-23.0.1\AndroidManifest.xml:20:13-22:85
+129                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+129-->[:com.google.firebase.firebase-firestore-23.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\0ad509fec3f4c0522a073e6d36df0e00\com.google.firebase.firebase-firestore-23.0.1\AndroidManifest.xml:21:17-111
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[:com.google.firebase.firebase-firestore-23.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\0ad509fec3f4c0522a073e6d36df0e00\com.google.firebase.firebase-firestore-23.0.1\AndroidManifest.xml:22:17-82
+131            <meta-data
+131-->[:com.google.firebase.firebase-installations-17.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\cb07c95edeec4a96b4ed216fa3f93362\com.google.firebase.firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+132                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+132-->[:com.google.firebase.firebase-installations-17.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\cb07c95edeec4a96b4ed216fa3f93362\com.google.firebase.firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[:com.google.firebase.firebase-installations-17.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\cb07c95edeec4a96b4ed216fa3f93362\com.google.firebase.firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+134            <meta-data
+134-->[:com.google.firebase.firebase-database-20.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\d22772393b050445f911957d4b75c875\com.google.firebase.firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
+135                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+135-->[:com.google.firebase.firebase-database-20.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\d22772393b050445f911957d4b75c875\com.google.firebase.firebase-database-20.0.0\AndroidManifest.xml:33:17-109
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[:com.google.firebase.firebase-database-20.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\d22772393b050445f911957d4b75c875\com.google.firebase.firebase-database-20.0.0\AndroidManifest.xml:34:17-82
+137            <meta-data
+137-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+138                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+138-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+140        </service> <!-- Xiaomi SDK Need -->
+141        <activity
+141-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:21:9-26:20
+142            android:name="com.xiaomi.gamecenter.sdk.ui.MiActivity"
+142-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:22:13-67
+143            android:configChanges="orientation|screenSize"
+143-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:23:13-59
+144            android:screenOrientation="behind"
+144-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:24:13-47
+145            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+145-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:25:13-72
+146        </activity>
+147        <activity
+147-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:27:9-31:75
+148            android:name="com.xiaomi.gamecenter.sdk.ui.PayListActivity"
+148-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:28:13-72
+149            android:configChanges="orientation|screenSize"
+149-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:29:13-59
+150            android:exported="true"
+150-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:30:13-36
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+151-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:31:13-72
+152        <activity
+152-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:32:9-36:75
+153            android:name="com.xiaomi.gamecenter.alipay.HyAlipayActivity"
+153-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:33:13-73
+154            android:configChanges="orientation|screenSize"
+154-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:34:13-59
+155            android:exported="true"
+155-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:35:13-36
+156            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+156-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:36:13-72
+157        <activity
+157-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:37:9-41:75
+158            android:name="com.xiaomi.account.openauth.AuthorizeActivity"
+158-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:38:13-73
+159            android:configChanges="orientation|screenSize"
+159-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:39:13-59
+160            android:exported="true"
+160-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:40:13-36
+161            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+161-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:41:13-72
+162        <activity
+162-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:42:9-46:75
+163            android:name="com.xiaomi.gamecenter.wxwap.HyWxWappayActivity"
+163-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:43:13-74
+164            android:configChanges="orientation|screenSize"
+164-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:44:13-59
+165            android:exported="true"
+165-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:45:13-36
+166            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+166-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:46:13-72
+167        <activity
+167-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:47:9-52:70
+168            android:name="com.alipay.sdk.app.H5PayActivity"
+168-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:48:13-60
+169            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+169-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:49:13-85
+170            android:exported="false"
+170-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:50:13-37
+171            android:screenOrientation="behind"
+171-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:51:13-47
+172            android:windowSoftInputMode="adjustResize|stateHidden" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+172-->[:UnityChannel:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\e9106627b915835c53d945d3a5015ad1\UnityChannel\AndroidManifest.xml:52:13-67
+173        <meta-data
+173-->[:arcore_client:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:36:9-38:41
+174            android:name="com.google.ar.core.min_apk_version"
+174-->[:arcore_client:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:37:13-62
+175            android:value="210910000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+175-->[:arcore_client:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:38:13-38
+176        <activity
+176-->[:arcore_client:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:40:9-46:80
+177            android:name="com.google.ar.core.InstallActivity"
+177-->[:arcore_client:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:41:13-62
+178            android:configChanges="keyboardHidden|orientation|screenSize"
+178-->[:arcore_client:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:42:13-74
+179            android:excludeFromRecents="true"
+179-->[:arcore_client:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:43:13-46
+180            android:exported="false"
+180-->[:arcore_client:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:44:13-37
+181            android:launchMode="singleTop"
+181-->[:arcore_client:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:45:13-43
+182            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+182-->[:arcore_client:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:46:13-77
+183
+184        <provider
+184-->[:com.google.firebase.firebase-common-20.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\430aa177607ae83148ecf56a5c4e4c30\com.google.firebase.firebase-common-20.0.0\AndroidManifest.xml:20:5-231
+185            android:name="com.google.firebase.provider.FirebaseInitProvider"
+185-->[:com.google.firebase.firebase-common-20.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\430aa177607ae83148ecf56a5c4e4c30\com.google.firebase.firebase-common-20.0.0\AndroidManifest.xml:20:15-79
+186            android:authorities="com.UNICAUCA.AppTerapeuta.firebaseinitprovider"
+186-->[:com.google.firebase.firebase-common-20.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\430aa177607ae83148ecf56a5c4e4c30\com.google.firebase.firebase-common-20.0.0\AndroidManifest.xml:20:80-148
+187            android:directBootAware="true"
+187-->[:com.google.firebase.firebase-common-20.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\430aa177607ae83148ecf56a5c4e4c30\com.google.firebase.firebase-common-20.0.0\AndroidManifest.xml:20:149-179
+188            android:exported="false"
+188-->[:com.google.firebase.firebase-common-20.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\430aa177607ae83148ecf56a5c4e4c30\com.google.firebase.firebase-common-20.0.0\AndroidManifest.xml:20:180-204
+189            android:initOrder="100" />
+189-->[:com.google.firebase.firebase-common-20.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\430aa177607ae83148ecf56a5c4e4c30\com.google.firebase.firebase-common-20.0.0\AndroidManifest.xml:20:205-228
+190
+191        <activity
+191-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+192            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+192-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+193            android:excludeFromRecents="true"
+193-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+194            android:exported="true"
+194-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+195            android:launchMode="singleTask"
+195-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+196            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+196-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+197            <intent-filter>
+197-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+198                <action android:name="android.intent.action.VIEW" />
+198-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+198-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+199
+200                <category android:name="android.intent.category.DEFAULT" />
+200-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+200-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+201                <category android:name="android.intent.category.BROWSABLE" />
+201-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+201-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+202
+203                <data
+203-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+204                    android:host="firebase.auth"
+204-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+205                    android:path="/"
+205-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+206                    android:scheme="genericidp" />
+206-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+207            </intent-filter>
+208        </activity>
+209        <activity
+209-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+210            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+210-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+211            android:excludeFromRecents="true"
+211-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+212            android:exported="true"
+212-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+213            android:launchMode="singleTask"
+213-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+214            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+214-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+215            <intent-filter>
+215-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+216                <action android:name="android.intent.action.VIEW" />
+216-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+216-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+217
+218                <category android:name="android.intent.category.DEFAULT" />
+218-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+218-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+219                <category android:name="android.intent.category.BROWSABLE" />
+219-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+219-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+220
+221                <data
+221-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+222                    android:host="firebase.auth"
+222-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+223                    android:path="/"
+223-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+224                    android:scheme="recaptcha" />
+224-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+225            </intent-filter>
+226        </activity>
+227
+228        <service
+228-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+229            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+229-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+230            android:enabled="true"
+230-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+231            android:exported="false" >
+231-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+232            <intent-filter>
+232-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+233                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+233-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+233-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+234
+235                <category android:name="android.intent.category.DEFAULT" />
+235-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+235-->[:com.google.firebase.firebase-auth-21.0.1:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\9517f25d002e423cbcf701339a4eacfc\com.google.firebase.firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+236            </intent-filter>
+237        </service>
+238
+239        <receiver
+239-->[:com.google.android.gms.play-services-measurement-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\b01dc06de6cf9d64f928414ace6e6a37\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+240            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+240-->[:com.google.android.gms.play-services-measurement-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\b01dc06de6cf9d64f928414ace6e6a37\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+241            android:enabled="true"
+241-->[:com.google.android.gms.play-services-measurement-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\b01dc06de6cf9d64f928414ace6e6a37\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+242            android:exported="false" >
+242-->[:com.google.android.gms.play-services-measurement-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\b01dc06de6cf9d64f928414ace6e6a37\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+243        </receiver>
+244
+245        <service
+245-->[:com.google.android.gms.play-services-measurement-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\b01dc06de6cf9d64f928414ace6e6a37\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+246            android:name="com.google.android.gms.measurement.AppMeasurementService"
+246-->[:com.google.android.gms.play-services-measurement-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\b01dc06de6cf9d64f928414ace6e6a37\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+247            android:enabled="true"
+247-->[:com.google.android.gms.play-services-measurement-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\b01dc06de6cf9d64f928414ace6e6a37\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+248            android:exported="false" />
+248-->[:com.google.android.gms.play-services-measurement-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\b01dc06de6cf9d64f928414ace6e6a37\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+249        <service
+249-->[:com.google.android.gms.play-services-measurement-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\b01dc06de6cf9d64f928414ace6e6a37\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+250            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+250-->[:com.google.android.gms.play-services-measurement-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\b01dc06de6cf9d64f928414ace6e6a37\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+251            android:enabled="true"
+251-->[:com.google.android.gms.play-services-measurement-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\b01dc06de6cf9d64f928414ace6e6a37\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+252            android:exported="false"
+252-->[:com.google.android.gms.play-services-measurement-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\b01dc06de6cf9d64f928414ace6e6a37\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+253            android:permission="android.permission.BIND_JOB_SERVICE" />
+253-->[:com.google.android.gms.play-services-measurement-19.0.0:] C:\Users\Cuinsy\.gradle\caches\transforms-2\files-2.1\b01dc06de6cf9d64f928414ace6e6a37\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+254    </application>
+255
+256</manifest>

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: e3048b0bd5ce83040858c3792da83fd9
+  - enabled: 1
+    path: Assets/Scenes/Login.unity
+    guid: 1e5c4bf4bb9a0424db1815eb9cfa4e22
+  - enabled: 1
+    path: Assets/Scenes/Perfil.unity
+    guid: 01b3ce1edfc50c34fabbd0fa0304e4b8
+  - enabled: 1
+    path: Assets/Scenes/Objetivos.unity
+    guid: b37291391f088e84197835e9ff4eb61f
+  - enabled: 1
+    path: Assets/Scenes/Juego.unity
+    guid: e20d995966b7fb849888d2162b917095
+  - enabled: 1
+    path: Assets/Scenes/Derrota.unity
+    guid: 1aec85a771fa57a448b94805caa3b4a5
+  - enabled: 1
+    path: Assets/Scenes/Victoria.unity
+    guid: ad97c0a1c22470048aa4618d97e4ab8a
+  - enabled: 1
+    path: Assets/Scenes/Escena de carga.unity
+    guid: bc7b0090c57ece54497cd733394d98d4
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 92ceb692a0ed94b48b675753028984da, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: f94c1d609108e4641b5f5d41a4d19ccd, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: cda58a88243584841a3dd22cb4ad6a04, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: a13087fa9194c854bbeaa9d07040b93a, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 266d323609026fb49a7022e5da370c0b, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6ef5ec1faa34aa6409e178f6dacd61c0, type: 2}
