@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "836459726857",
+    "firebase_url": "https://appterapeuta-default-rtdb.firebaseio.com",
+    "project_id": "appterapeuta",
+    "storage_bucket": "appterapeuta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836459726857:android:644a3e9db1376ffd0190d8",
+        "android_client_info": {
+          "package_name": "com.UNICAUCA.AppTerapeuta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836459726857-ke2o8nu1v1b7labn80gej5lgnn7d5e6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDATU2OuaqymWadr_6U_mmYiNvG5JMnGQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836459726857-ke2o8nu1v1b7labn80gej5lgnn7d5e6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
