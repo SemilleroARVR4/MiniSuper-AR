@@ -16,13 +16,13 @@ from datetime import datetime
 
 #Parametros de acceso a la base de datos en firebase obtenidos de la propia base de datos
 firebaseConfig = {
-    "apiKey": "AIzaSyCStKY5gKZ28i9hvx9tez9byonQgHoojm4",
-    "authDomain": "appterapeuta.firebaseapp.com",
-    "databaseURL": "https://appterapeuta-default-rtdb.firebaseio.com",
-    "projectId": "appterapeuta",
-    "storageBucket": "appterapeuta.appspot.com",
-    "messagingSenderId": "836459726857",
-    "appId": "1:836459726857:web:058a18d22934756c0190d8"
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": "",
+    "projectId": "",
+    "storageBucket": "",
+    "messagingSenderId": "",
+    "appId": ""
 }
 
 firebase = pyrebase.initialize_app(firebaseConfig) #Inicializar pyrebase con los datos de configuracion
